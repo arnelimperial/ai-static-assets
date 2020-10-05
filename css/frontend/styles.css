@@ -327,7 +327,7 @@ width: 100px;
   width: 11em;
   height: 11em;
   border-radius: 50%;
-  background: #000000;
+  background: #FFF;
   background: -moz-linear-gradient(left, #000000 10%, rgba(0,0,0, 0) 42%);
   background: -webkit-linear-gradient(left, #000000 10%, rgba(0,0,0, 0) 42%);
   background: -o-linear-gradient(left, #000000 10%, rgba(0,0,0, 0) 42%);
@@ -343,7 +343,7 @@ width: 100px;
 .loader:before {
   width: 50%;
   height: 50%;
-  background: #000000;
+  background: #FFF;
   border-radius: 100% 0 0 0;
   position: absolute;
   top: 0;
@@ -351,7 +351,7 @@ width: 100px;
   content: '';
 }
 .loader:after {
-  background: #000000;
+  background: #FFF;
   width: 75%;
   height: 75%;
   border-radius: 50%;
