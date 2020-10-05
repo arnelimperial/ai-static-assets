@@ -320,9 +320,17 @@ width: 100px;
 
 /* Spinner */
 
+.spinner--div {
+  padding-top:100px;
+}
+.loading--p {
+  text-align:center;
+  font-size:2em
+}
+
 .loader {
   font-size: 10px;
-  margin: 200px auto;
+  margin: 160px auto;
   text-indent: -9999em;
   width: 11em;
   height: 11em;
