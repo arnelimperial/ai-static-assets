@@ -374,10 +374,12 @@ input.contact__field {
 }
 textarea.contact__field {
   margin-bottom: -1px;
+  
 }
-input.contact__field:focus, textarea.contact--field:focus{
+input.contact__field:focus, textarea.contact__field:focus{
   border-color: blue;
   outline: none;
+  
 }
 
 button.btn {
@@ -389,17 +391,17 @@ button.btn:hover{
   background-color: #96a8b4;
 }
 
-.btn-lg{
+.btn__lg{
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
 
-.btn-block {
+.btn__block {
   display: block;
   width: 100%;
 }
-.btn-block + .btn-block {
+.btn__block + .btn__block {
   margin-top: 0.5rem;
 }
 .btn {
@@ -418,6 +420,9 @@ button.btn:hover{
   font-size: 1rem;
   border-radius: 0.25rem;
   background-color: #b6bfc5;
+  width: 100%;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -447,7 +452,7 @@ button.btn:hover{
   
 }
 
-span.error {
+span.error__msg {
   color: rgb(214, 54, 80);
   font-size: small;
 }
@@ -457,11 +462,8 @@ span.error {
   margin-bottom: 10px;
 }
 
-.contact__message{
-  height:150px;
-}
+
 
 .contact__button {
   padding-top: 40px;
 }
-
