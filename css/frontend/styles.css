@@ -260,10 +260,10 @@ padding-left: 1em;
 }
 
 .solo--picture {
-border: 1px solid #ddd;
+/* border: 1px solid #ddd;
 border-radius: 7px;
-padding: 5px;
-width: 100px;
+padding: 5px; */
+width: 150px;
   
 }
 
