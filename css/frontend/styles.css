@@ -371,17 +371,17 @@ width: 100px;
 
 /* Contact page */
 
-.contact--fieldset {
+.contact__fieldset {
   margin: 1px auto 60px auto;
 }
 
-input.contact--field {
+input.contact__field {
   margin-bottom: 1px;
 }
-textarea.contact--field {
+textarea.contact__field {
   margin-bottom: -1px;
 }
-input.contact--field:focus, textarea.contact--field:focus{
+input.contact__field:focus, textarea.contact--field:focus{
   border-color: blue;
   outline: none;
 }
@@ -435,7 +435,7 @@ button.btn:hover{
 
 
 @media only screen and (min-width: 599px) {
-  .contact--fieldset {
+  .contact__fieldset {
     width: 60%;
   }
 
@@ -458,15 +458,16 @@ span.error {
   font-size: small;
 }
 
-.first--name {
+.first__name {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.contact--message{
+.contact__message{
   height:150px;
 }
 
-.contact--button {
+.contact__button {
   padding-top: 40px;
 }
+
