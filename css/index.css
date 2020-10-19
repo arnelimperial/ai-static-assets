@@ -1,0 +1,13 @@
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+.alert-success {
+    color: #0d462c;
+    background-color: #d1e7dd;
+    border-color: #bfddcf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

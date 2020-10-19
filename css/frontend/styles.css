@@ -10,59 +10,70 @@
     box-sizing: border-box; 
 }
 
+.anchor{
+  color: blue;
+  text-decoration: underline;
+  font-weight: 500;
+
+}
+.anchor:hover {
+  color:blue
+}
+
 
 ul {
-    list-style: circle inside;
+  list-style: circle inside;
 }
 ul li {
-    padding-left: 1.5em; 
-    text-indent: -1em;
+  padding-left: 1.5em; 
+  text-indent: -1em;
 }
   
 .mt-1 { 
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 .mt-2 {
     margin-top: 2rem;
 }
 
 .mt-5 {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 
 .h2 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .h3 {
-    font-weight: 600;
-    color: #333;
+  font-weight: 600;
+  color: #333;
 
 }
 
 .h4 {
-    font-weight: 500;
-    color: #333;
+  font-weight: 500;
+  color: #333;
 }
 
 .h5{
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .h6 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .lead {
-    font-weight: 600;
-    color: #13283a;
+  font-weight: 600;
+  color: #13283a;
 }
 
 footer {
-    padding-bottom: 20px;
-
+  padding-bottom: 20px;
 }
+
+
 
   /* Header Component */
   
@@ -106,12 +117,12 @@ footer {
   
   /* About page  */
   
-  .lead {
-    font-weight: 600;
-    color: #13283a;
-  }
+.lead {
+  font-weight: 600;
+  color: #13283a;
+}
   
-  .solo--picture {
+.solo--picture {
   border: 1px solid #ddd;
   border-radius: 7px;
   padding: 5px;
@@ -119,98 +130,39 @@ footer {
     
   }
   
-  .solo--picture:hover {
-    box-shadow: 0 0 2px 1px rgba(157, 222, 243, 0.5);
+.solo--picture:hover {
+  box-shadow: 0 0 2px 1px rgba(157, 222, 243, 0.5);
+}
+  
+/* Home page */
+  
+.post--title {
+  font-size: 1.1em;
+}
+@media only screen and (max-width: 479px) {
+  .home__row, .home__col21 {
+    visibility: hidden;
   }
-  
-  /* Home page */
-  
-  .post--title {
-    font-size: 1.1em;
+  .home__row2 {
+    display: flex;
+    flex-direction: column-reverse;
   }
-  
-  /* Resume page */
-  
-  .spaces {
-    margin: 0;
-    padding: 0;
+  .home__col22, .home__col23 {
+    height: auto;
   }
+}
+
+/* Resume page */
   
-  .work {
-    font-weight: 900;
-  }
+.spaces {
+  margin: 0;
+  padding: 0;
+}
   
-  .mt-1 {
-    margin-top: 1rem;
-  }
-
-/* Custom CSS */
-
-/* App.css */
-.anchor{
-  color: blue;
-  text-decoration: underline;
-  font-weight: 500;
-
-}
-.anchor:hover {
-  color:blue
+.work {
+  font-weight: 900;
 }
 
-main {
-  margin-top: 3rem;
-  padding-bottom: 5rem;
-}
-
-ul li {
-  padding-left: 1.5em; 
-  text-indent: -1em;
-}
-
-.mt-1 { 
-  margin-top: 1rem;
-}
-.mt-2 {
-  margin-top: 2rem;
-}
-
-.mt-5 {
-  margin-top: 5rem;
-}
-
-
-.h2 {
-  font-weight: 500;
-}
-
-.h3 {
-  font-weight: 600;
-  color: #333;
-
-}
-
-.h4 {
-  font-weight: 500;
-  color: #333;
-}
-
-.h5{
-  font-weight: 800;
-}
-
-.h6 {
-  font-weight: 500;
-}
-
-.lead {
-  font-weight: 600;
-  color: #13283a;
-}
-
-footer {
-  padding-bottom: 20px;
-
-}
 
 /* Header Component */
 
@@ -252,39 +204,7 @@ padding-left: 1em;
   color: #333;
 }
 
-/* About page  */
-
-.lead {
-  font-weight: 600;
-  color: #13283a;
-}
-
-.solo__picture {
-  width: 140px;
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
-}
   
-/* Home page */
-
-.post--title {
-  font-size: 1.1em;
-}
-
-/* Resume page */
-
-.spaces {
-  margin: 0;
-  padding: 0;
-}
-
-.work {
-  font-weight: 900;
-}
-
-.mt-1 {
-  margin-top: 1rem;
-}
-
 /* Spinner */
 
 .spinner__div {
