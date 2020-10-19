@@ -10,13 +10,13 @@
   box-sizing: border-box; 
 }
 
-.anchor{
+.anchor, a{
   color: blue;
   text-decoration: underline;
   font-weight: 500;
 
 }
-.anchor:hover {
+.anchor:hover, a:hover {
   color:blue
 }
 
@@ -137,44 +137,7 @@ footer {
 .post--title {
   font-size: 1.1em;
 }
-@media only screen and (max-width: 479px) {
 
-  .home__col11, .home__col12, .home__col13, .home__col21 {
-    display: none;
-  }
-  .home__row2 {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    /* optional */
-    -webkit-box-align: start;
-    -moz-box-align: start;
-    -ms-flex-align: start;
-    -webkit-align-items: flex-start;
-    align-items: flex-start;
-  }
-  .home__row2 .home__col22 {
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    -ms-flex-order: 2;
-    -webkit-order: 2;
-    order: 2;
-  }
-  .home__row2 .home__col23 {
-    -webkit-box-ordinal-group: 1;
-    -moz-box-ordinal-group: 1;
-    -ms-flex-order: 1;
-    -webkit-order: 1;
-    order: 1;
-  }
-}
 
 /* Resume page */
   
