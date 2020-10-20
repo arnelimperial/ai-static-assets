@@ -17,7 +17,7 @@
 
 }
 .anchor:hover, a:hover {
-  color:blue
+  color:blue;
 }
 
 
@@ -71,7 +71,7 @@ ul li {
 }
 
 footer {
-  padding-bottom: 20px;
+  padding: 30px 20px;
 }
 
   /* Header Component */
