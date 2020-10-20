@@ -28,12 +28,7 @@ ul li {
   padding-left: 1.5em; 
   text-indent: -1em;
 }
-@media only screen and (max-width: 543px) {
-  ul li {
-    text-align: justify;
-    text-justify: inter-word;
-  }
-}
+
   
 .mt-1 { 
   margin-top: 1rem;
