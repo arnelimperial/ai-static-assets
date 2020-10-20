@@ -70,6 +70,10 @@ ul li {
   color: #13283a;
 }
 
+main {
+  padding-bottom: 70px;
+}
+
   /* Header Component */
   
   .header--nav ul li {
